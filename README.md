@@ -1,8 +1,11 @@
 # :computer: Back-End-Roadmap
+## Flow Of The Roadmap
+![flow roadmap](https://user-images.githubusercontent.com/88058192/214859314-89929e25-e28f-4709-81ae-4001ede2aac0.png)
+
 
 
 ----------
-## :bulb: Prerequisites | Entry Level
+## :bulb: Entry Level | Prerequisites
  - Basics of Any Programming Language 
  - Introduction To Computer Science "The Most Recommended Course" 
  | [CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
@@ -12,7 +15,7 @@
  
  ## :wave: Beginner Level | What's Web Development?
  ## Level 0 | Basics 
- - Network basic & HTTP
+ - Network basics & HTTP
     - [HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
     - [HTTP Methods, Request and Response Headers](https://www.youtube.com/watch?v=PsdimP_-TKY&ab_channel=Ebrahem)
  - Client-Server Architecture
@@ -21,19 +24,22 @@
  - HTML/CSS
    - [HTML Arabic | Elzero](https://www.youtube.com/playlist?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji)
    - [CSS Arabic  | Elzero](https://www.youtube.com/watch?v=X1ulCwyhCVM&list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe)
-   
   > Here is the english one if prefer it 
     | [HTML English](https://www.youtube.com/watch?v=qz0aGYrrlhU)
     | [CSS English](https://www.youtube.com/watch?v=1Rs2ND1ryYc)
  - Javascript
    - [Javascript | elzero](https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv)
  > [Javascript | English](https://www.youtube.com/watch?v=hdI2bqOjy3c&t=9s)
-
+- UML & Modeling
+   - [UML Diagrams | Freecodecamp](https://www.youtube.com/watch?v=WnMQ8HlmeXc)
+   
+   
 ## Level 1 | Web Development Basics
-> First we should create the environment for start learning and applying
+> First we should create the environment to start learning and applying
 ### :monocle_face: Setup
+
 - Local Server | [WAMP](https://www.wampserver.com/en/) | [XAMPP](https://www.apachefriends.org/download.html) | [Laragon](https://laragon.org/)
-  > You can choose anyone of these servers 
+  > You can choose any of those servers 
 - IDE | [PhpStorm](https://www.jetbrains.com/phpstorm/) | [VS Code](https://code.visualstudio.com/download) | [Sublime](https://www.sublimetext.com/download)
   > I suggest to try more than one to make sure which one you will perfer
 - Dependency Manager for PHP | [Composer](https://getcomposer.org/) 
@@ -41,6 +47,7 @@
 :pray: Now we Can Start
 
 ### :elephant: PHP | Basics 
+
 - Main Course | [PHP | Arabic](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzH72MTPuAAaYfReraNlQgM)
 - [The PHP Practitioner | Laracasts](https://laracasts.com/series/php-for-beginners)
 - [Crash Course PHP](https://www.youtube.com/watch?v=2eebptXfEvw&feature=youtu.be)
@@ -50,6 +57,7 @@
 - [Learn PHP The Right Way](https://www.youtube.com/playlist?list=PLr3d3QYzkw2xabQRUpcZ_IBk9W50M9pe-)
   > Optional One
 ### :chains: PHP | OOP
+
 - Main Course | [OOP | Arabic](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzH72MTPuAAaYfReraNlQgM)
 - [Object-Oriented Principles in PHP | Laracasts](https://laracasts.com/series/object-oriented-principles-in-php)
   > This Course Focus on the main principles of oop only
@@ -61,6 +69,7 @@
 You must know security topics in PHP such as Sanitization and [`XSS`](https://portswigger.net/web-security/cross-site-scripting) 🐱‍💻
 
 [Validate vs Sanitize](https://youtu.be/uXpQSrx8aqw)
+
 
 ## Level 2 | Database & API
 ### Intro To Database "Core Of Backend"
@@ -86,10 +95,17 @@ Sometimes you need to provide a payment gateways to your site such as ([Hyper Pa
 - [PHP REST API Tutorial | Step By Step](https://www.youtube.com/watch?v=2EJ03wM0erI&list=PLS1QulWo1RIYWjdoEC1WbT8W3XGGWVXfW)
 - [APIs Explained | Real World Examples](https://www.youtube.com/watch?v=ZveW4_ZJtVY)
   > After finishing tutorials, you can take a look over this [Packages](https://github.com/odan/learn-php)
+### Tools
 #### Git&GitHub
 - [Git and GitHub for Beginners | FreeCodeCamp](https://www.youtube.com/watch?v=RGOj5yH7evk)
 - [Learn Git and Github | Elzero](https://www.youtube.com/playlist?list=PLDoPjvoNmBAw4eOj58MZPakHjaO3frVMF)
   > You should learn how to use git to manage every project you will create, note that your github is the great support of your CV  
+  
+#### How To Use Your IDE
+- [Be Awesome in PHPStorm | Laracasts](https://laracasts.com/series/how-to-be-awesome-in-phpstorm)
+- [VS Code | Laracasts](https://laracasts.com/series/visual-studio-code-for-php-developers)
+
+
 ## :clap: Intermediate Level | Framework(Laravel)
 ### Level 3 | Laravel
 #### 5.x: Coder’s Tape
@@ -102,6 +118,11 @@ Sometimes you need to provide a payment gateways to your site such as ([Hyper Pa
 - [Laravel 8 From Scratch | Laracasts](https://laracasts.com/series/laravel-8-from-scratch)
 
 > You may ask why should I learn more than one version of Laravel, what if I learn the latest version ONLY? My answer is that learning more than one version gives you more experience in addition every version contains its new features ONLY, and this makes you ignore the old version features.
+
+#### Livewire: Sarthak Shrivastava
+- [Laravel Livewire Full Course](https://www.youtube.com/playlist?list=PLe30vg_FG4OQ8b813BDykoYz95Zc3xUWK)
+Here you'll learn Livewire framework, that makes building dynamic interfaces simple, without leaving the comfort of Laravel 🤯
+> Note: This step is optional, but I recommend learning Livewire as it'll relieve you from AJAX problems, also you may like to use [Alpine.js](https://alpinejs.dev/), because it's a very lightweight Javascript framework. If you'd like to learn Vue.js you can watch [Vue.js Tutorials & Examples](https://youtube.com/playlist?list=PLDoPjvoNmBAzDuaT7kEURZQbw9dQHepK9).
 
 > I recommend to see this series of "What's New In?" all versions of Laravel to know huge amount of features, functions and updates that done by Laravel,
 Here is some of them [`5.1`](https://laracasts.com/series/whats-new-in-laravel-5-1) | [`5.2`](https://laracasts.com/series/whats-new-in-laravel-5-2) | [`5.3`](https://laracasts.com/series/whats-new-in-laravel-5-3) | [`5.3`](https://laracasts.com/series/whats-new-in-laravel-5-4) | [`5.5`](https://laracasts.com/series/whats-new-in-laravel-5-5) | [`5.6`](https://laracasts.com/series/whats-new-in-laravel-5-6) | [`5.7`](https://laracasts.com/series/whats-new-in-laravel-5-7) | [`5.8`](https://laracasts.com/series/whats-new-in-laravel-5-8) | [`6.0`](https://laracasts.com/series/whats-new-in-laravel-6) | [`7.0`](https://laracasts.com/series/whats-new-in-laravel-7) | [`8.0`](https://laracasts.com/series/whats-new-in-laravel-8) | [`9.0`](https://laracasts.com/series/whats-new-in-laravel-9)
@@ -120,11 +141,17 @@ Here is some of them [`5.1`](https://laracasts.com/series/whats-new-in-laravel-5
 #### SOLID Principles 
 - [SOLID Principles in PHP | Laracasts](https://laracasts.com/series/solid-principles-in-php)
 - [5 Principles of Object Oriented Design | Article](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+- [SOLID Principles | Arabic](https://www.youtube.com/watch?v=nHo8kEX0HZI&list=PLrwRNJX9gLs3ZtZgJtw5k15CDobtfSNQt)
+- [SOLID Principles | LaravelDaily](https://laraveldaily.teachable.com/courses/475842/lectures/8760334)
 #### Design Patterns
+- [Design Patterns in OOP](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
 - [Design Patterns | Coursera](https://www.coursera.org/learn/design-patterns?specialization=software-design-architecture)
 - [Design Patterns | Laracasts](https://laracasts.com/series/design-patterns-in-php)
+- [Software Design Patterns | Arabic](https://www.youtube.com/watch?v=m-lHYVdOzCo&list=PLrwRNJX9gLs3oQyBoXtYimY7M5aSF0_oC)
 #### Laravel Testing
 - [Build A Laravel App With TDD | Laracasts](https://laracasts.com/series/build-a-laravel-app-with-tdd)
+#### Docker
+- [Docker Build | Arabic](https://www.youtube.com/watch?v=zw42kEMvzx8&list=PLMYF6NkLrdN-vRESJh6XOEaLudHS8chDC)
 
 #### Packages
 
